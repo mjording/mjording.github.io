@@ -845,6 +845,6 @@ section #title .credits.right {
   }
 
   nav {
-    display: none;
+    /* display: none; */
   }
 }
