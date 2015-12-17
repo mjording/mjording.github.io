@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Eloquent JavaScript on Rails: Thinking Outside the DOM
+title: Eloquent JavaScript on Rails&#58; Thinking Outside the DOM
 ---
 
 ## Eloquent JavaScript on Rails: Thinking Outside the DOM
