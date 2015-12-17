@@ -4,8 +4,12 @@
   "description": "jekyll react static site",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint src tools test",
-    "test": "npm run lint && babel-jest"
+    "upgrade": "npm-check-updates -u && npm test",
+    "test": "jest",
+    "browser": "nightwatch -e firefox,chrome",
+    "prebuild": "npm install",
+    "build": "rm -rf dist/ && webpack",
+    "dist": "npm test && npm run build && npm run browser"
   },
   "repository": {
     "type": "git",
@@ -31,6 +35,7 @@
     "front-matter": "^2.0.1",
     "history": "^1.13.1",
     "jest-cli": "^0.8.1",
+    "nightwatch": "^0.8.9",
     "randomatic": "^1.1.5",
     "react": "^0.14.3",
     "react-dom": "^0.14.3",
@@ -43,5 +48,26 @@
     "babel": "^6.3.13",
     "history": "^1.13.1",
     "stream-browserify": "^2.0.1"
+  },
+  "jest": {
+    "scriptPreprocessor": "<rootDir>/node_modules/babel-jest",
+    "unmockedModulePathPatterns": [
+      "<rootDir>/node_modules/react"
+    ],
+    "moduleFileExtensions": [
+      "js",
+      "json",
+      "jsx"
+    ],
+    "testFileExtensions": [
+      "js"
+    ],
+    "testDirectoryName": "unit",
+    "testPathDirs": [
+      "<rootDir>/spec/"
+    ]
+  },
+  "engines": {
+    "node": ">=0.10.0"
   }
 }
