@@ -1,4 +1,4 @@
-baseURL = "https://mjording.iequalsi.com/"
+baseURL = "http://iequalsi.com/"
 languageCode = "en-us"
 title = "mine"
 theme = "nix"
