@@ -1,0 +1,13 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "mine"
+theme = "nix"
+[params]
+  GithubID = "mjording"
+  TwitterID = "mjording"
+  LinkedInID = "mjording"
+  FacebookID = "mjording"
+  Name = "Matthew Jording"
+  HeaderUsername = "mjording"
+  HeaderHostname = "iequalsi"
+  About = "Software Engineer in Brooklyn NY"
