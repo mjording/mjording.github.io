@@ -3,22 +3,22 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://mjording.iequalsi.com/about/</loc>
+    <loc>http://iequalsi.com/about/</loc>
     <lastmod>2014-04-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mjording.iequalsi.com/categories/</loc>
+    <loc>http://iequalsi.com/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://mjording.iequalsi.com/tags/</loc>
+    <loc>http://iequalsi.com/tags/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://mjording.iequalsi.com/</loc>
+    <loc>http://iequalsi.com/</loc>
     <lastmod>2014-04-09T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
